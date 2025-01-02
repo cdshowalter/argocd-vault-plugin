@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    path: .
+    path: argocd-vault-plugin
     repoURL: 'https://github.com/cdshowalter/argocd-vault-plugin.git'
     targetRevision: HEAD
   destination:
