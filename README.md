@@ -14,7 +14,7 @@ vault write auth/kubernetes/role/argocd \
     ttl=1h
 ```
 # Needed Secret to Connect to Vault via Kubernetes
-All data fields need to be base64 encoded.
+All `data` fields need to be base64 encoded.
 ```
 apiVersion: v1
 kind: Secret
